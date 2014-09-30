@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  root :to => 'flickr#index'
-  resources :flickr
+  root :to => 'photos#index'
+  get "show" => "photos#show", :as => :photo
+  
 end
