@@ -1,8 +1,6 @@
 <h1>hello world</h1>
-<div id="search">
-	<% form_tag(:photo) do %>
-		<%= label_tag(@tags, "Search for:") %>
-		<%= text_field_tag(@tags) %>
-		<%= submit_tag("Enter") %>
-	<% end %>
-</div>
+
+
+<% @photos.each do |pic| %>
+	<%= image_tag("#{photo_url}")%><br/>
+<% end %>
