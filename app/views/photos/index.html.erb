@@ -1,6 +1,2 @@
 <h1>hello world</h1>
-
-
-<% @photos.each do |pic| %>
-	<%= image_tag("#{photo_url}")%><br/>
-<% end %>
+<%=image_tag(@photos, src: "#{@photo_url}")  %>
