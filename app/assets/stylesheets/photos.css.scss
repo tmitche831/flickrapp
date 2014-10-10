@@ -2,9 +2,34 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+h1 {
+	text-align: center;
+}
 
-/*#gallery {
-	background-color: blue;
-	height: 25px;
-	width: 25px;
-}*/
+#container {
+	margin-left: 28px;
+}
+
+#photo_container {
+	margin: auto;
+	margin-top: 5px;
+	max-width: 65%;
+	display: inline-block;
+	background-color: black;
+	border: solid grey 4px;
+	padding: 1em;
+}
+
+.photo {
+	width: 250px;
+	height: 150px;
+	padding: 1em;
+	margin: auto;
+	background-color: white;
+}
+
+#page_controls, #search_bar {
+	margin: auto;
+	text-align: center;
+	padding: 1em;
+}
