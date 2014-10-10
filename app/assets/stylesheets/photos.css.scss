@@ -4,6 +4,8 @@
 
 h1 {
 	text-align: center;
+	font-family: 'IM Fell English SC', serif;
+	font-size: 3em;
 }
 
 #container {
@@ -28,8 +30,15 @@ h1 {
 	background-color: white;
 }
 
-#page_controls, #search_bar {
+#page_controls {
 	margin: auto;
+	margin-top: 5px;
+	width: 300px;
 	text-align: center;
 	padding: 1em;
+	border-radius: 1.5em;
+	background-color: black;
+	color: white;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 1.5em;
 }
